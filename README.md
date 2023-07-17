@@ -23,14 +23,3 @@
 ## Member 👨🏻‍🤝‍👨🏻
   - Bui Van Huy
 
-## Contributors✨
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><img src="https://avatars.githubusercontent.com/u/125659908" width="100px;" alt=""/><br /><sub><b>Bui Van Huy</b></sub></a><br /><a href="" title="Code">💻</a> <a title="BE">📱</a> <a href="" >
-
-  
-</table>
