@@ -46,6 +46,14 @@ namespace HotelApp.API.Controller
             var booking = _bookingService.getBookingByUserId(int.Parse(Id.ToString() ?? ""), option);
             return Ok(booking);
         }
+        [Authorize]
+        [HttpGet("revenue")]
+        public ActionResult<RevenueOfMonthDto> getRevenue([FromQuery] RevenueOptions option)
+        {
+
+            var revenue = _bookingService.GetRevenue(option);
+            return Ok(revenue);
+        }
 
         [Authorize]
         [HttpPatch("{bookingId}")]

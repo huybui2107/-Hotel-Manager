@@ -16,5 +16,10 @@ namespace HotelApp.API.Services
 
         SearchBookingByHotelDto getBookingByHotel(int hotelId, BookingFilterOption option);
 
+        RevenueOfMonthDto GetRevenue(RevenueOptions options);
+
+        int getTotalOfDay(int hotelId, DateTime day);
+        int countMaxItemByMonth(int hotelId, int status, int month);
+        int countItemByMonth(int hotelId, int month);
     }
 }
